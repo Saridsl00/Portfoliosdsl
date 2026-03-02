@@ -19,17 +19,17 @@ const Project = ({ darkMode }) => {
     },
     {
       id: 2,
-      title: 'Fitness Tracker App',
-      desc: 'UI/UX design using Figma.',
+      title: 'MEAL GOODS',
+      desc: 'This is desain UI untuk you HAHAHAHHHA orng blum jdi',
       image: project2,
       tags: ['Figma'],
-      demo: 'https://figma.com/your-design'
+      demo: 'https://www.figma.com/proto/YLfsQ9gEHXLiiCWhCNZhgB/Untitled?node-id=1-3&t=cIlgLfRnFH0ITzxl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3'
     },
     {
       id: 3,
       title: 'Content Generator',
       desc: 'AI content generator built with MERN stack.',
-      image: project3,
+      image: project4,
       tags: ['React', 'Node.js', 'MongoDB'],
       github: 'https://github.com/username/content-generator',
       demo: 'https://content-ai.vercel.app'
