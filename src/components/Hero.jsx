@@ -23,8 +23,8 @@ const Hero = ({ darkMode }) => {
         {
             icon: tiktok,
             alt: 'TikTok',
-            web: 'https://www.tiktok.com/@username',
-            app: 'snssdk1128://user/profile/username',
+            web: 'https://www.tiktok.com/@usernameimu',
+            app: 'snssdk1128://user/profile/usernameimu',
             color: 'hover:drop-shadow-[0_0_8px_rgba(0,255,255,0.7)]'
         },
         {
@@ -37,8 +37,8 @@ const Hero = ({ darkMode }) => {
         {
             icon: youtube,
             alt: 'YouTube',
-            web: 'https://youtube.com/@username',
-            app: 'vnd.youtube://channel/username',
+            web: 'https://youtube.com/@saridosmasantalusi',
+            app: 'vnd.youtube://channel/saridosmasantalusi',
             color: 'hover:drop-shadow-[0_0_8px_rgba(255,0,0,0.7)]'
         },
     ];
