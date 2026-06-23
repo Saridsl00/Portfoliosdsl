@@ -1,5 +1,7 @@
 import React from "react";
 import JIDOKA from "../assets/JIDOKA.pdf";
+import SERKOM from "../assets/SERKOM.pdf";
+import BOOTCAMP from "../assets/BOOTCAMP.pdf";
 
 const Certificates = ({ darkMode }) => {
 
@@ -8,6 +10,18 @@ const Certificates = ({ darkMode }) => {
       title: "Uji Kompetensi Basis Data",
       issuer: "PT Jidoka System Indonesia",
       file: JIDOKA
+    },
+
+    {
+      title: "Seminar Kompetensi Database Administator",
+      issuer: "BADAN NASIONAL SERTIFIKASI PROFESI",
+      file: SERKOM
+    },
+
+    {
+      title: "IT Bootcamp Software Development For Industry",
+      issuer : "Bina Sarana Informatika University",
+      file: BOOTCAMP
     }
   ];
 

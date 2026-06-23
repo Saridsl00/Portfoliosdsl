@@ -5,6 +5,7 @@ import project3 from '../assets/project3.jpg'
 import project4 from '../assets/project4.jpg'
 import project5 from '../assets/project5.jpg'
 import project6 from '../assets/project6.jpg'
+import project7 from '../assets/melodi.png'
 
 const Project = ({ darkMode }) => {
   const Projects = [
@@ -15,16 +16,25 @@ const Project = ({ darkMode }) => {
       image: project1,
       tags: ['Laravel', 'PHP', 'MySQL', 'HTML', 'CSS'],
       github: 'https://github.com/Saridsl00/DiousDonuts.git',
-      demo: 'https://demo-donut.vercel.app'
+      demo: ''
     },
     {
       id: 2,
+      title: 'Melodi Event Organizer – UI/UX Design for an Event Organizer Booking System',
+      desc: 'Merancang antarmuka pengguna dan pengalaman pengguna (UI/UX) untuk sistem pemesanan penyelenggara acara menggunakan Figma. Membuat wireframe, alur pengguna, prototipe interaktif, dan desain antarmuka untuk fitur pemesanan, manajemen paket, dan dasbor pengguna untuk meningkatkan kegunaan dan pengalaman pengguna.',
+      image: project7,
+      tags: ['Figma'],
+      demo: 'https://www.figma.com/proto/52JF40Yjz0itQ4R3pNLRaq/melodi-design?node-id=52-10&t=nwIQ194whbU8ukOh-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=483%3A503&show-proto-sidebar=1'
+    },
+    {
+      id: 3,
       title: 'MEAL GOODS',
       desc: '',
       image: project2,
       tags: ['Figma'],
       demo: 'https://www.figma.com/proto/YLfsQ9gEHXLiiCWhCNZhgB/Untitled?node-id=1-3&t=cIlgLfRnFH0ITzxl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3'
     },
+    
     // {
     //   id: 3,
     //   title: 'Content Generator',
