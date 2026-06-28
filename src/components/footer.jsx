@@ -25,14 +25,14 @@ const Footer = ({ darkMode }) => {
                 color: 'transparent'
               }}
             >
-              Portfolio
+              Portofolio
             </h3>
             <p className="text-sm text-[#6b7280] dark:text-[#9ca3af]">
               Full stack Developer & UI/UX Designer
             </p>
           </div>
 
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-gradient-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
               <FaGithub />
             </a>
@@ -44,7 +44,7 @@ const Footer = ({ darkMode }) => {
             <a className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-gradient-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
               <FaTwitter />
             </a>
-          </div>
+          </div> */}
 
           <div className="text-center md:text-right">
             <p className="text-sm flex items-center justify-end gap-1 text-[#6b7280] dark:text-[#9ca3af]">
