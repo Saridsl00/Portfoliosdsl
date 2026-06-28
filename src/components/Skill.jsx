@@ -58,9 +58,8 @@ const Skill = ({ darkMode }) => {
                         style={{
                             color: darkMode ? '#d1d5db' : '#4b5563'
                         }}>
-                            Saya memiliki kemampuan dalam pengembangan sistem, 
-                            perancangan antarmuka, serta pengelolaan dan perancangan 
-                            database yang terstruktur dan efisien.
+                            Skilled in system development, user interface design, 
+                            and designing as well as managing structured and efficient databases.
                         </p>
                     </div>
                     <div 

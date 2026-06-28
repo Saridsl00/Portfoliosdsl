@@ -13,11 +13,10 @@ const About = ({darkMode}) => {
                 className="flex flex-wrap justify-center gap-4 relative order-2 lg:order-1">
                     <div className="relative w-75 h-75 lg:w-96 lg:h-96">
                         {/* image */}
-                        <div className="absolute -inset-6 lg:-inset-20 bg-linear-to-r
-                        from-[#f97316] via-[#fb923c] to-[#f59e0b] rotate-12 star-shape z-0"
-                        data-aos = 'zoom-in'
-                        data-aos-delay='600'>
-                        </div>
+                        <div className="absolute -inset-6 lg:-inset-10 border-2 border-orange-400 rounded-xl rotate-6 z-0"
+data-aos='zoom-in'
+data-aos-delay='600'>
+</div>
                         <img 
                         src={about}
                         alt="About Image"
@@ -36,7 +35,7 @@ const About = ({darkMode}) => {
                         to-orange-600 bg-clip-text'
                         data-aos='fade-up'
                         data-aos-delay='400'>
-                            About Me
+                            ABOUT ME
                         </h1>
                     </header>
                     <p className={`text-sm sm:text-base lg:text-lg xl:text-xl mb-6
@@ -45,10 +44,13 @@ const About = ({darkMode}) => {
                         backdrop-blur-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
                         data-aos='fade-up'
                         data-aos-delay='500'>
-                        Mahasiswa Sistem Informasi semester 6 dengan pengalaman mengikuti bootcamp dan 
-                        mengembangkan sistem informasi penjualan berbasis web. Memiliki kemampuan dalam 
-                        web development, desain antarmuka, serta pengelolaan database menggunakan Laravel 
-                        dan MySQL. Siap belajar, berkembang, dan berkontribusi melalui program magang.
+                        A sixth-semester Information Systems student passionate 
+                        about software development and digital innovation. Experienced in 
+                        developing web and mobile applications, designing user interfaces using 
+                        Figma, and managing databases through academic projects. Interested in software 
+                        development, quality assurance, and user-centered technologies. Continuously learning 
+                        new technologies and committed to improving both technical and problem-solving skills to build 
+                        impactful digital solutions.
                     </p>
                     {/* <div
                     className='flex flex-wrab justify-center lg:justify-start gap-4

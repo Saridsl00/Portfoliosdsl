@@ -82,8 +82,9 @@ const Project = ({ darkMode }) => {
               color: darkMode ? '#d1d5db' : '#6b7280'
             }}
           >
-            Kumpulan proyek yang telah saya kembangkan sebagai bentuk penerapan
-            kemampuan dalam pengembangan sistem, perancangan database, dan pembuatan aplikasi.
+            A collection of projects demonstrating my experience in system 
+            development, database design, and application development through academic 
+            and personal projects.
           </p>
         </div>
 

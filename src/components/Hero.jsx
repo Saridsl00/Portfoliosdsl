@@ -5,6 +5,7 @@ import youtube from '../assets/youtube.png'
 import hero from '../assets/hero.png'
 import hi from '../assets/hi.png'
 import CV from '../assets/CV.jpg'
+import Home from '../assets/home.png'
 import { DownloadIcon, Mail } from 'lucide-react'
 
 const Hero = ({ darkMode }) => {
@@ -146,9 +147,9 @@ const Hero = ({ darkMode }) => {
                         data-aos='fade-up'
                         data-aos-delay='600'>
                         <span className="block">Information Systems Student</span>
-                        <span className="block">Web Development • UI Design • Database Management</span>
-                        <span className="block">Laravel | MySQL | Figma</span>
-                        <span className="block">Open for Internship 2026</span>
+                        <span className="block">Web Development • Mobile Development • UI/UX Design</span>
+                        <span className="block">Laravel | MySQL | Figma | Flutter</span>
+                        <span className="block">Always Learning • Building • Improving</span>
                         </p>
 
                         {/* BUTTONS */}
@@ -188,7 +189,7 @@ const Hero = ({ darkMode }) => {
                         <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
                             <div className='relative overflow-hidden'>
                                 <img
-                                    src={hero}
+                                    src={Home}
                                     alt="Hero Image"
                                     className='w-full h-auto object-cover transform
                                     hover:scale-105 transition-transform duration-500'
